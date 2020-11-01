@@ -2,8 +2,8 @@
     {% assign words = content | number_of_words %}
 
     {% if words < 360 %}
-        Yilin
+        1 min
     {% else %}
-        {{ words | divided_by:180 }} 分钟
+        {{ words | divided_by:180 }} mins
     {% endif %}
 </span>

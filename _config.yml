@@ -1,105 +1,119 @@
 # main text of home
-name: UNKNOWN
-bio: 
+name: 咕咚同学
+bio: Target - Daily - System
+bio-url: http://www.sohu.com/a/245629404_559589
 
 # twitter summary info
-description: A blog about Nothing
+description: A blog about gudong.site 咕咚
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.JPG
-profile_bk: assets/images/profile_bk.JPG
+picture: assets/profile/github_profile_2020.png
+profile_bk: assets/profile/profile_bk_2017.jpg
+author: 咕咚同学
+gudongqr: https://cdn.jsdelivr.net/gh/maoruibin/assets/pic/2019/mmexport1578533815371.jpg
+gudonggzh: 咕咚同学
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: false
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://gudong.site/2017/05/08/resume.html
 
-url: https://blog.ilili.tk
-# your url: https://blog.ilili.tk/
+url: https://gudong.site
+# your url: http://USERNAME.github.io
 
-permalink: /:title.html
+# permalink: /:title/
+permalink: /:year/:month/:day/:title.html
 
 # To enable google analytics, supply your token below
 analytics-google: ''
 
+analytics-baidu: 'de1df75db196971264bd87815c96f646'
+
+
 # To enable piwik tracking, supply your url & site ID below
-analytics-piwik-url: 'https://blog.ilili.tk'
+analytics-piwik-url: 'gudong.site'
 analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
 enable_disque: false
 
-# if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: lightlynx # enter this from your disqus account
-  categories: [blog, tech, notes] # only show disqus for posts that have these categories
+  shortname: gudong-name # enter this from your disqus account
+  categories: [blog, note, product] # only show disqus for posts that have these categories  
 
 # if you don't want comments in your posts, leave categories empty
 enable_valine: true
 
 valine:
-  shortname: Yilin # enter this from your disqus account
-  categories: [blog, notes,tech] # only show disqus for posts that have these categories  
-  appId: 'OzXUe8yuzTpx9H4nkPXHk7iL-gzGzoHsz'
-  appKey: '4GnKcv2faGgLALNiClQ6SLee'
+  shortname: gudong-name # enter this from your disqus account
+  categories: [blog, note, product,tech,daily] # only show disqus for posts that have these categories  
+  appId: 'q5V4aOUPHhbRT8jxCyNV2T7R-gzGzoHsz'
+  appKey: 'VRukIh8OADQLSmXKBcXM52bM'
   visitors: true
 
 # if you don't have any of social below, comment the line
-facebook: 100012963570046
-twitter: melinkii_ren
+# 文件在include 下面的 icon  
+weibo: maoruibin
+# jianshu: 203065de3ced
+zhihu: maoruibin
+juejin: 55f6e9de00b0d7b2c13a8526
+# facebook: 
+twitter: dxgudong
+# google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
-# youtube: myyoutube
+# youtube: UCyTmtkrzThgT1wGGUgQ4eZA
 # spotify: myspotify
-github: Melinkii
+github: maoruibin
 # gitlab: mygitlab
 # lastfm: mylastfm
-# stackoverflow: Yilin/Ren
+# stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-# medium: medium
+# medium: gudong.site
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-# segmentfault: yilin
-email: i@am-loli.fun
+# email: gudong.site#gmail.com
+rss: true
 
 authors:
-    Yilin:
-        name: UNKNOWN
-        bio: 2333
-        about: https://blog.ilili.tk/about
+    gudong:
+        name: 咕咚
+        bio: 求知求真，拥抱体系。
+        about: https://gudong.site/about
         external-image: false
-        picture: assets/images/profile.JPG
-        # twitter: johndoe
+        picture: assets/profile/github_profile_2020.png
+        twitter: FZ64pAZK2h8aP4r
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
-# normal = 560px / large = 810px
+# normal = 720px / large = 810px
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
 # paginate_path: "blog/:num/"
 
-# if you don't need tech, comment the *projects* configs below
+#note
+note: false
+
 tech: true
+daily: true
 
-# if you don't need notes, comment the *projects* configs below
-notes: true
-
-# if you don't need archives, comment the *projects* configs below
-archives: true
+# personal product
+product: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+about: false
+
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
@@ -108,10 +122,10 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog, tech]
+post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
@@ -124,16 +138,9 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://blog.ilili.tk
+    base_url: https://gudong.site
+
 markdown: kramdown
 kramdown:
     input: GFM
 highlighter: rouge 
-
-compress_html:
-    ignore:
-        envs:
-        - development
-        - stage
-
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]

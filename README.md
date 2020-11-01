@@ -1,3 +1,6 @@
+
+[sergiokopplin/indigo: Minimalist Jekyll Template](https://github.com/sergiokopplin/indigo/)
+
 <p align="center">
     <h2 align="center">Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/indigo"><img src="https://camo.githubusercontent.com/5393485b732749b3499264168fa8af60166071e8/68747470733a2f2f7472617669732d63692e6f72672f73657267696f6b6f70706c696e2f696e6469676f2e7376673f6272616e63683d67682d7061676573" alt="Build Status" data-canonical-src="https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages" style="max-width:100%;"></a></h2>
 </p>
@@ -39,10 +42,16 @@ If you want to test locally on your machine, do the following steps also:
 1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
 2. Clone the forked repo on your machine
 3. Enter the cloned folder via terminal and run `bundle install`
-4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
+4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml --incremental`
 5. Open it in your browser: `http://localhost:4000`
 6. Test your app with `bundle exec htmlproofer ./_site`
 7. Do you want to use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) plugin to edit your posts? Go to the admin panel: `http://localhost:4000/admin`. The admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
+
+编辑器
+> http://127.0.0.1:4000/admin
+
+### Scss 编译
+通过步骤三  
 
 ## Settings
 
@@ -57,11 +66,37 @@ picture: 'assets/images/profile.jpg'
 and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
 ```
 
+### 不发布文章
+```
+published: false
+```
+
+### 不显示相关文章
+```
+hide-related: true
+```
+
+## 加目录
+* 根目录增加文件
+* 在 _sass/pages/home-blog-projects.sass 增加 css
+* header.xml 增加判断
+* nav 中增加判断
+
+## todo
+```
+本文标题： 深入理解Android事件分发机制
+本文作者： maoqitian
+发布时间： 2019-01-30
+本文链接： https://www.maoqitian.com/2019/01/30/深入理解Android事件分发机制/ 
+版权声明： 本博客所有文章除特别声明外，均采用 CC BY-NC-ND 4.0 许可协议。转载请注明出处！
+```
+
 ## How To?
 
 Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 
 ---
-## License
 
 [MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
+
+

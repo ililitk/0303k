@@ -3,53 +3,59 @@ body, html
 
 body
 	line-height: 1
-	font: 16px $fontSans
+	font: 15px $fontSans
 	color: $alpha
 
-h1, h2, h3, h4
+h1, h2, h3, h4, h5, h6
 	font-family: $fontSans
 	color: $beta
 	-webkit-font-smoothing: antialiased
 	text-rendering: optimizeLegibility
 
 h1
-	font-size: 3rem
+	font-size: 3.2rem
 	letter-spacing: -1px
 	color: $beta
 	font-weight: 700
 
 h2
-	font-size: 2.2rem
+	font-size: 3.0rem
 
 h3
-	font-size: 2rem
+	font-size: 2.8rem
 
 h4
-	font-size: 1.6rem
+	font-size: 2.4rem
+
+h5
+	font-size: 2.2rem
+
+h6
+	font-size: 2.0rem
 
 a
-	color: #000
+	color: $delta
 	text-decoration: underline
 
 p
-	line-height: 1.7
+	line-height: 1.9
 	color: $alpha
-	font-weight: 300
-	margin-bottom: 20px
+	font-weight: 360
 	letter-spacing: 0.4px
+	font-size: $textsize
 
 	@media #{$mobile}
 		letter-spacing: 0.2px
 
 strong
-	font-weight: 400
-	color: #000
-
+	font-weight: 700
+	
 ul,
 ol
 	li
-		line-height: 2.4rem
-		font-weight: 300
+		line-height: 4rem
+		font-weight: 430
+		font-size: $textsize
 		color: $alpha
 
 img,
@@ -63,7 +69,7 @@ pre
 
 figcaption
 	position: relative
-	top: -20px
+	margin-top: -20px
 	left: 0
 	right: 0
 	margin: 0 auto
@@ -72,13 +78,20 @@ figcaption
 	font-size: 1.3rem
 	color: $gama
 	font-weight: 300
+	margin-bottom: 25px
 
 	@media #{$mobile}
 		font-size: 1.2rem
 
 blockquote
-	padding-left: 15px
+	padding-left: 12px
+	padding-top: 1px
+	margin-left: 14px
+	padding-bottom: 1px
 	border-left: 3px solid #eee
+
+	p
+		font-weight: 340
 
 hr
 	border: none
@@ -95,8 +108,7 @@ code,
 tt
 	padding: 1px 0
 	font-family: $fontMonospace
-	font-size: 12px
-	line-height: 20px
+	font-size: $codesize
 	background: #fff
 	border-radius: 2px
 
@@ -126,7 +138,7 @@ pre
 		width: 88%
 
 .wrapper-normal
-	max-width: 560px
+	max-width: 720px
 
 .wrapper-large
 	max-width: 810px
