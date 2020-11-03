@@ -25,7 +25,7 @@ url: https://blog.ilili.tk
 # your url: http://USERNAME.github.io
 
 # permalink: /:title/
-permalink: /:year/:month/:day/:title.html
+permalink: /:title.html
 
 # To enable google analytics, supply your token below
 analytics-google: ''
@@ -48,10 +48,10 @@ disqus:
 enable_valine: true
 
 valine:
-  shortname: gudong-name # enter this from your disqus account
-  categories: [blog, note, product,tech,daily] # only show disqus for posts that have these categories  
-  appId: 'q5V4aOUPHhbRT8jxCyNV2T7R-gzGzoHsz'
-  appKey: 'VRukIh8OADQLSmXKBcXM52bM'
+  shortname: Yilin # enter this from your disqus account
+  categories: [blog, notes,tech] # only show disqus for posts that have these categories  
+  appId: 'OzXUe8yuzTpx9H4nkPXHk7iL-gzGzoHsz'
+  appKey: '4GnKcv2faGgLALNiClQ6SLee'
   visitors: true
 
 # if you don't have any of social below, comment the line
