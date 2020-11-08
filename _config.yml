@@ -4,7 +4,7 @@ bio: Target - Daily - System
 bio-url: http://www.sohu.com/a/245629404_559589
 
 # twitter summary info
-description: A blog about blog.ififi.tk 墨沫
+description: A blog about blog.ilili.tk 墨沫
 
 # if it's an external image, update below for true
 # better with square images
@@ -19,9 +19,9 @@ gudonggzh: 墨沫同学
 # and specify source (external or local).
 resume: false
 resume-external: true
-resume-url: https://blog.ififi.tk/2017/05/08/resume.html
+resume-url: https://blog.ilili.tk/2017/05/08/resume.html
 
-url: https://blog.ififi.tk
+url: https://blog.ilili.tk
 # your url: http://USERNAME.github.io
 
 # permalink: /:title/
@@ -34,7 +34,7 @@ analytics-baidu: 'de1df75db196971264bd87815c96f646'
 
 
 # To enable piwik tracking, supply your url & site ID below
-analytics-piwik-url: 'blog.ififi.tk'
+analytics-piwik-url: 'blog.ilili.tk'
 analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
@@ -74,17 +74,17 @@ github: maoruibin
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-# medium: blog.ififi.tk
+# medium: blog.ilili.tk
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-# email: blog.ififi.tk#gmail.com
+# email: blog.ilili.tk#gmail.com
 rss: true
 
 authors:
     gudong:
         name: 墨沫
         bio: 求知求真，拥抱体系。
-        about: https://blog.ififi.tk/about
+        about: https://blog.ilili.tk/about
         external-image: false
         picture: assets/profile/github_profile_2020.png
         twitter: FZ64pAZK2h8aP4r
@@ -138,7 +138,7 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://blog.ififi.tk
+    base_url: https://blog.ilili.tk
 
 markdown: kramdown
 kramdown:
