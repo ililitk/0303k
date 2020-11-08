@@ -9,8 +9,8 @@ description: A blog about ilili.tk 墨沫
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/profile.JPG
-profile_bk: assets/profile.JPG
+picture: https://gitee.com/iililii/loli/raw/master/20201108155314.png
+profile_bk: https://gitee.com/iililii/loli/raw/master/20201108155314.png
 author: 墨沫同学
 gudongqr: https://cdn.jsdelivr.net/gh/maoruibin/assets/pic/2019/mmexport1578533815371.jpg
 gudonggzh: 墨沫同学
