@@ -1,13 +1,13 @@
 ---
 title: "英语笔记"
 layout: post
-date: 2020-11-08 10:11
+date: 2020-11-07 10:11
 image: /assets/images/markdown.jpg
 headerImage: false
 tag: 
-- notes
+- daily
 star: false
-category: blog
+category: daily
 author: Yilin
 description: 2020年10月英语笔记
 ---
@@ -26,6 +26,7 @@ description: 2020年10月英语笔记
 8.if 如果，引导条件状语从句，有主将从现，主情从现，主祈从现的用法
 9.prefer A to B   比起B偏爱A    prefer v.偏爱  过去式：preferred 
 10.主语和宾语是n.   pron.   Doing
+
 11. 有：have/has   there be
 
 ### 10月2日
