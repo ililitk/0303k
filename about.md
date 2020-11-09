@@ -7,8 +7,4 @@ layout: page
 
 
 
-
-
-{% include visitor.html %}
-
 {% include valine.html %}
