@@ -1,7 +1,7 @@
 # main text of home
 name: 墨沫同学
 bio: Target - Daily - System
-bio-url: http://www.sohu.com/a/245629404_559589
+bio-url: https://ilili.tk/Less-is-more.html
 
 # twitter summary info
 description: A blog about ilili.tk 墨沫
@@ -83,7 +83,7 @@ rss: true
 authors:
     gudong:
         name: 墨沫
-        bio: 求知求真，拥抱体系。
+        bio: 求知求真，拥抱体系
         about: https://ilili.tk/about.html
         external-image: false
         picture: assets/profile/github_profile_2020.png
@@ -116,7 +116,7 @@ blog: true
 read-time: false
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+show-tags: false
 
 # related posts inside a post?
 related: true
