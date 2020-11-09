@@ -3,8 +3,6 @@ title: About
 layout: page
 ---
 
-![image-20201108155304698](https://gitee.com/iililii/loli/raw/master/20201108155314.png)
-
-
+### 有什么想说的呢？
 
 {% include valine.html %}
