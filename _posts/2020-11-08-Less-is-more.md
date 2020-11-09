@@ -18,11 +18,6 @@ description:
 
 **“断舍离”向我们传达出“关注当下的自我，重新审视人和物品的关系”这样的理念。**
 
-```html
-<div id="dplayer"></div>
-<script src="DPlayer.min.js"></script>
-```
-
 **而今天，作者将带我们重新去认识"Less is more"，同样会有“关注自我”，但是作者从一个新的角度去诠释了"Less is more"的真正价值。**
 
 **话不多说，和我们一起品读今天的文章吧。**
