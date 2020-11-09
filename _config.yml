@@ -116,7 +116,7 @@ blog: true
 read-time: false
 
 # do you want to show the "tags" inside the posts?
-show-tags: false
+show-tags: true
 
 # related posts inside a post?
 related: true
@@ -125,7 +125,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: false
+show-author: true
 
 # do you want some animations?
 animation: true
