@@ -16,15 +16,6 @@ description:
 
 **在国内，最为广泛被人们所知的"Less is more"观点，即物品和心灵的“断舍离”。**
 
-```js
-const dp = new DPlayer({
-    container: document.getElementById('dplayer'),
-    video: {
-        url: 'https://kcdn.ltyuanfang.cn/yun/159/5f96dffaaa20dCLSUFFSVID_20201017_230413_1.mp4?auth=0&_upd=SVID_20201017_230413_1.mp4',
-    },
-});
-```
-
 **“断舍离”向我们传达出“关注当下的自我，重新审视人和物品的关系”这样的理念。**
 
 ```html
