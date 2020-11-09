@@ -3,6 +3,6 @@ title: About
 layout: page
 ---
 
-### 有什么想说的呢？
+### 何か言いたいことがありますか？
 
 {% include valine.html %}
