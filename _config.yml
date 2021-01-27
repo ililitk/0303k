@@ -1,19 +1,19 @@
 # main text of home
-name: みちの零細な坑
+name: 驿林的零散坑
 bio: Target - Daily - System
 bio-url: https://iiam.fun/Less-is-more.html
 
 # twitter summary info
-description: A blog about iiam.fun みち
+description: A blog about iiam.fun 驿林
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/profile.png
 profile_bk: assets/profile.png
-author: みち
+author: 驿林
 gudongqr: https://cdn.jsdelivr.net/gh/maoruibin/assets/pic/2019/mmexport1578533815371.jpg
-gudonggzh: みち
+gudonggzh: 驿林
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -82,8 +82,8 @@ rss: true
 
 authors:
     gudong:
-        name: みち
-        bio: 求知求真，拥抱体系
+        name: 驿林
+        bio: emmm...
         about: https://iiam.fun/about.html
         external-image: false
         picture: assets/profile/github_profile_2020.png
